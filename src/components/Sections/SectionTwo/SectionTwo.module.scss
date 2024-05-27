@@ -1,0 +1,88 @@
+.boxentry {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .containerEntry {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height:50vh ;
+        .imgBox {
+            background-image: url("../../../../assets/IMAGE/banner_1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 31%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .writeBox {
+                width:50% ;
+                padding: 15px 0;
+                text-align: center;
+                background-color: white;
+                font-weight: 600;
+                font-size: 18px;
+                color: #1e1e27;
+                cursor: pointer;
+                &:hover {
+                    color: #B5AEC8;
+                }
+            }
+        }
+        .imgBox1 {
+            background-image: url("../../../../assets/IMAGE/banner_2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 31%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .writeBox {
+                width:50% ;
+                padding: 15px 0;
+                text-align: center;
+                background-color: white;
+                font-weight: 600;
+                font-size: 18px;
+                color: #1e1e27;
+                cursor: pointer;
+                &:hover {
+                    color: #B5AEC8;
+                }
+            }
+        }
+        .imgBox2 {
+            background-image: url("../../../../assets/IMAGE/banner_3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 31%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .writeBox {
+                width:50% ;
+                padding: 15px 0;
+                text-align: center;
+                background-color: white;
+                font-weight: 600;
+                font-size: 18px;
+                color: #1e1e27;
+                cursor: pointer;
+                &:hover {
+                    color: #B5AEC8;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .imgBox {
+        width: 85%;
+    }
+}

@@ -1,0 +1,36 @@
+.containerDash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .dash {
+        width: 70%;
+
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .dashCards {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 2px solid black;
+
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
+
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #FE4C50;
+    cursor: pointer;
+    color: white;
+}

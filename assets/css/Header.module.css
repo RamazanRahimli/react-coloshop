@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box .container .withBox {
+  width: 100%;
+  background-color: #1E1E27;
+  display: flex;
+  justify-content: center;
+}
+.box .container .withBox .topBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  padding: 10px 0;
+}
+.box .container .withBox .topBox p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b5aec4;
+  cursor: pointer;
+}
+.box .container .withBox .topBox .writeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.box .container .withBox .topBox .writeBox p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b5aec4;
+  cursor: pointer;
+}
+.box .container .withBoxBottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+}
+.box .container .withBoxBottom .bottomBox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  padding: 20px 0;
+}
+.box .container .withBoxBottom .bottomBox .leftBox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e1e27;
+  cursor: pointer;
+  transform: uppercase;
+  display: flex;
+  flex-direction: row;
+}
+.box .container .withBoxBottom .bottomBox .leftBox h2 p {
+  color: #fe4c50;
+}
+.box .container .withBoxBottom .bottomBox .mediumBox {
+  width: 50%;
+}
+.box .container .withBoxBottom .bottomBox .mediumBox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.box .container .withBoxBottom .bottomBox .mediumBox ul li {
+  list-style-type: none;
+}
+.box .container .withBoxBottom .bottomBox .mediumBox ul a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  color: #1e1e27;
+}
+.box .container .withBoxBottom .bottomBox .mediumBox ul a:hover {
+  color: #B5ACC2;
+}
+.box .container .withBoxBottom .bottomBox .rightBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+}
+.box .container .withBoxBottom .bottomBox .rightBox p {
+  font-size: 20px;
+  padding: 2px;
+}
+.box .container .withBoxBottom .bottomBox .rightBox p:hover {
+  color: #B5AEC4;
+}
+.box .container .withBoxBottom .bottomBox .rightBox .shopBox {
+  background-color: #ECEFF6;
+  border-radius: 50%;
+  padding: 5px;
+}
+.box .container .withBoxBottom .bottomBox .rightBox h5 {
+  font-size: 25px;
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .container .topBox {
+    display: none;
+  }
+  .container .bottomBox .mediumBox {
+    display: none;
+  }
+  .container .bottomBox .rightBox {
+    width: 50%;
+  }
+  .container .bottomBox .rightBox h5 {
+    display: block;
+  }
+}

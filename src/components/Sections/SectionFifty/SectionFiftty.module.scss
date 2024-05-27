@@ -1,0 +1,13 @@
+.boxEntry {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .containerEntry {
+        width: 85%;
+        min-height: 30vh;
+        background-color: salmon;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

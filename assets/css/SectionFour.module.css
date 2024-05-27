@@ -1,0 +1,57 @@
+.boxEntry {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.boxEntry .containerEntry {
+  width: 85%;
+}
+.boxEntry .containerEntry .topBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.boxEntry .containerEntry .topBox h1 {
+  font-weight: 500;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.boxEntry .containerEntry .topBox h5 {
+  border-bottom: 5px solid #FE4C50;
+  width: 6%;
+  padding: 5px 0;
+}
+.boxEntry .containerEntry .topBox .categryBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+}
+.boxEntry .containerEntry .topBox .categryBox a {
+  text-decoration: none;
+  padding: 6px 15px;
+  border: 1px solid #FE4C50;
+  color: black;
+  cursor: pointer;
+}
+.boxEntry .containerEntry .bottomBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 40vh;
+  background-color: salmon;
+}
+.boxEntry .containerEntry .bottomBox .imgWriteBox {
+  width: 18%;
+}
+.boxEntry .containerEntry .bottomBox .imgWriteBox .imgBox {
+  width: 90%;
+  background-image: url("../../../../assets/IMAGE/product_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+}
